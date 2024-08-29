@@ -1,15 +1,7 @@
 #include <iostream>
-// #include "hello.cpp"
 #include "class.h"
-#include "class.cpp"
 
 int main() {
-
-    // std::cout << "Hello world" << std::endl;
-    // printName();
-    // printClass();
-    // printDate();
-    
 
     Area userArea1 (5, 10, 50);
     userArea1.findArea();
