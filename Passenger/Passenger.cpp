@@ -57,3 +57,8 @@ void Passenger::setClassOfService(const std::string &classOfSrvice){
     // classOfService = classOfService;
 }
 
+void Passenger::printPassenger() {
+
+    std::cout << "First Name: " << getFirstName() << "\nLast Name: " << getLastName() << "\nSeat Number: " << getSeatNumber() << "\nFlight Number: " << getFlightNumber() << "\nClass of Service: " << getClassOfService() << std::endl;
+}
+

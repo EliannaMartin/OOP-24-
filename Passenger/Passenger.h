@@ -27,6 +27,8 @@ class Passenger {
     void setFlightNumber(const std::string &flightNumber);
     void setClassOfService(const std::string &classOfSrvice);
 
+    void printPassenger();
+
 };
 
 #endif
