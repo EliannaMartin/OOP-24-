@@ -15,9 +15,10 @@ int main() {
     }   
 
     for (i = 0; i < 10; i++){
-        
-        std::cout << numArray[i] << ", ";
 
+        if (numArray[i] > 5) {
+        std::cout << numArray[i] << ", ";
+        }
     }
 
     return 0;
