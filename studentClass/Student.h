@@ -10,27 +10,29 @@ private:
     string firstName;
     string lastName;
     int SID;
-    int grades;
+    int grades[10];
+    int gradeCount;
 
 
 public: 
-    Student();
+    // Student();
     Student(string firstName, string lastName, int SID);
-    Student(string firstName, string lastName, int SID, int grades);
+    // Student(string firstName, string lastName, int SID, int grades);
 
     string getFirstName();
     string getLastName();
     int getSID();
     int getGrades();
 
-    void setFirstName(string firstName);
-    void setLastName(string lastName);
-    void setSID(int SID);
-    void setGrades(int grades);
+// These are parameter and have no relation to the declared data under private:
+    void setFirstName(string fName);
+    void setLastName(string lName);
+    void setSID(int studentID);
+    void setGrades(int aGrade);
 
     void printStudentInfo();
     float avgGrade();
-
+    int getGradeCount();
 
 };
 
