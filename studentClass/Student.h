@@ -1,6 +1,6 @@
 #ifndef STUDENT_H
 #define STUDENT_H 
-
+// Preprocessing statment!
 #include <string>
     using std::string;
 
@@ -16,8 +16,8 @@ private:
 
 public: 
     // Student();
-    Student(string firstName, string lastName, int SID);
-    // Student(string firstName, string lastName, int SID, int grades);
+    Student(string fName, string lName, int studentID);
+    Student(string fName, string lName, int studentID, int aGrade);
 
     string getFirstName();
     string getLastName();
