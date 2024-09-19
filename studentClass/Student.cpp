@@ -39,7 +39,7 @@ void Student::setGrades(int aGrade){
     aGrade = grades;
 }
 
-void Student::printStudentInfo(){
+void Student::printStudentInfo (){
 
     std::cout << getFirstName() << ", " << getLastName() << ", " << getSID() << ", " << getGrades() << std::endl;
 
